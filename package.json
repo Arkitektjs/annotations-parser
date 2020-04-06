@@ -1,0 +1,48 @@
+{
+  "name": "@arkitektjs/annotations-parser",
+  "version": "1.0.0",
+  "description": "Annotation parser for generating documentation and extracting information from the definition of a class, function or property",
+  "main": "index.js",
+  "scripts": {
+    "style": "eslint ./ --ext .js --config .eslintrc.js",
+    "style:fix": "eslint ./ --ext .js --config .eslintrc.js --fix",
+    "test": "jest ./tests --passWithNoTests",
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "test:coverage": "jest --collectCoverage --passWithNoTests",
+    "test:watch": "jest --passWithNoTests --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arkitektjs/annotations-parser.git"
+  },
+  "keywords": [
+    "arkitekt",
+    "annotations-parser",
+    "utilities",
+    "server",
+    "browser",
+    "client",
+    "function",
+    "property",
+    "class"
+  ],
+  "author": "Franck DIOMANDE <fkdiomande@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arkitektjs/annotations-parser/issues"
+  },
+  "homepage": "https://github.com/Arkitektjs/annotations-parser#readme",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^3.0.11",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-align-assignments": "^1.1.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-sort-requires": "^2.1.0",
+    "jest": "^25.2.7"
+  }
+}
